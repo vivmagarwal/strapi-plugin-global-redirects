@@ -7,8 +7,7 @@ You can now enable your plugin by adding the following in `./config/plugins.js`
 module.exports = {
   // ...
   'global-redirects': {
-    enabled: true,
-    resolve: './src/plugins/global-redirects'
+    enabled: true
   },
   // ...
 }
