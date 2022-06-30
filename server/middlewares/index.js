@@ -1,3 +1,9 @@
-'use strict';
+"use strict";
 
-module.exports = {};
+const globalRedirect = require("./global-redirects");
+const qwerty = require("./qwerty");
+
+module.exports = {
+  globalRedirect,
+  qwerty,
+};

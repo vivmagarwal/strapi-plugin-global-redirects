@@ -1,6 +1,9 @@
-'use strict';
+"use strict";
 
 module.exports = {
   default: {},
   validator() {},
+  load: {
+    after: ["qwerty"],
+  },
 };

@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
-const myService = require('./my-service');
+const globalRedirectsService = require("./global-redirects");
 
 module.exports = {
-  myService,
+  globalRedirectsService,
 };
